@@ -11,7 +11,7 @@
 </head>
 <body>
     <section class="section">
-        <div class="container">
+        <div class="container" id="quote-box">
             <div class="columns">
                 <div class="column is-half is-offset-one-quarter">
                     <div class="card">
@@ -28,16 +28,16 @@
                         </header>
                         <div class="card-content">
                           <div class="content">
-                            <h1 class="title is-1"><span id="newQuote">Find your quote here!</span></h1>
-                            <p class="subtitle">Use the buttons below generate quotes</p>
-    
-                    
-                           
-                          </div>
+                            <h1 class="title is-1"><span id="text">Find your quote here!</span></h1>
+                            <p class="subtitle" id="author" >Use the buttons below generate quotes</p>
+                        </div>
                         </div>
                         <footer class="card-footer">
-                            <button class=" button card-footer-item is-large" id="p1Button">Generate quote</button>
+                            <button class=" button card-footer-item is-large" id="new-quote">Generate quote</button>
                             <button class=" button card-footer-item is-large" id="reset">reset</button>
+                            <a href="twitter.com/intent/tweet" target="_blank">
+                            <button class=" button card-footer-item is-large" id="tweet-quote">tweet</button>
+                            </a>
                         </footer>
                       </div>
                 </div>

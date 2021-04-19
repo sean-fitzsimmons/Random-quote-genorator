@@ -8,13 +8,16 @@ html, body {
       background-size: 400% 400%;
       /* animation: gradient 15s ease infinite; */
   }
-  #p1Button {
+  #new-quote {
       background: #ee7752
   }
   #reset {
       background: #e73c7e
   }
-
+  #tweet-quote {
+    background:  #23a6d5;
+      
+  }
   
   @keyframes gradient {
       0% {
